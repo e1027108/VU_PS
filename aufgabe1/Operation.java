@@ -5,7 +5,7 @@ import java.util.Deque;
 
 public abstract class Operation {
 
-	private Deque<String> stack;
+	protected Deque<String> stack;
 	
 	public Operation(){
 		this.setStack(new ArrayDeque<String>());
@@ -19,4 +19,7 @@ public abstract class Operation {
 		this.stack = stack;
 	}
 	
+	public abstract void executeOperation(); //useful?
+	
+	//TODO later: recursive method for blocks?
 }
