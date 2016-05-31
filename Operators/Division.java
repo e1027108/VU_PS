@@ -1,4 +1,6 @@
-package aufgabe1;
+package Operators;
+
+import aufgabe1.Operation;
 
 public class Division extends Operation {
 

@@ -1,6 +1,8 @@
-package aufgabe1;
+package Operators;
 
-public class Greater extends Operation {
+import aufgabe1.Operation;
+
+public class Lesser extends Operation {
 
 	@Override
 	public void executeOperation(){
@@ -12,7 +14,7 @@ public class Greater extends Operation {
 		val1 = Integer.parseInt(stack.pop());
 		val2 = Integer.parseInt(stack.pop());
 		
-		if(val2 > val1){
+		if(val2 < val1){
 			result = "1";
 		}
 		else{

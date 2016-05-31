@@ -1,4 +1,7 @@
-package aufgabe1;
+package Operators;
+
+import aufgabe1.Addition;
+import aufgabe1.Operation;
 
 public final class OperationSingletons {
 
