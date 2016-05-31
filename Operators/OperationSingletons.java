@@ -1,8 +1,5 @@
 package Operators;
 
-import aufgabe1.Addition;
-import aufgabe1.Operation;
-
 public final class OperationSingletons {
 
 	private static Addition additionInstance;
