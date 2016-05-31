@@ -1,7 +1,5 @@
 package Operators;
 
-import aufgabe1.Operation;
-
 public class Modulo extends Operation {
 
 	@Override

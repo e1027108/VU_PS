@@ -1,7 +1,5 @@
 package Operators;
 
-import aufgabe1.Operation;
-
 public class Subtraction extends Operation {
 
 	@Override

@@ -1,7 +1,5 @@
 package Operators;
 
-import aufgabe1.Operation;
-
 public class Multiplication extends Operation {
 
 	@Override
